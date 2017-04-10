@@ -11,7 +11,7 @@ do {} until (Elevate-Privileges SeTakeOwnershipPrivilege)
 echo "Uninstalling default apps"
 $apps = @(
     # default Windows 10 apps
-    "Microsoft.3DBuilder"
+    #"Microsoft.3DBuilder"
     "Microsoft.Appconnector"
     "Microsoft.BingFinance"
     "Microsoft.BingNews"
@@ -29,12 +29,12 @@ $apps = @(
     #"Microsoft.Windows.Photos"
     "Microsoft.WindowsAlarms"
     #"Microsoft.WindowsCalculator"
-    "Microsoft.WindowsCamera"
+    #"Microsoft.WindowsCamera"
     "Microsoft.WindowsMaps"
     "Microsoft.WindowsPhone"
     "Microsoft.WindowsSoundRecorder"
     #"Microsoft.WindowsStore"
-    "Microsoft.XboxApp"
+    #"Microsoft.XboxApp"
     "Microsoft.ZuneMusic"
     "Microsoft.ZuneVideo"
     "microsoft.windowscommunicationsapps"
